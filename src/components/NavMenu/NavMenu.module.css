@@ -1,0 +1,31 @@
+.bar{
+    float: top;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: #ffffff;   
+    background-color: #274549;
+    overflow: hidden;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px; /* Adjust the gap between list items */
+  }
+
+.liItem{
+    text-decoration:underline;
+    font-size: xx-large;
+    color: whitesmoke;
+    padding: 0 20;
+    margin: 0;
+}
